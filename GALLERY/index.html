@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Gallery Home</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <style>
+         .gallery-title
+         {
+         font-size: 36px;
+         color: #000000;
+         text-align: center;
+         font-weight: 500;
+         margin-bottom: 70px;
+         }
+         .gallery-title:after {
+         content: "";
+         position: absolute;
+         width: 7.5%;
+         left: 46.5%;
+         height: 45px;
+         border-bottom: 1px solid #5e5e5e;
+         }
+         .filter-button
+         {
+         font-size: 18px;
+         border: 1px solid #110466;
+         border-radius: 5px;
+         text-align: center;
+         color: #110466;
+         margin-bottom: 30px;
+         }
+         .filter-button:hover
+         {
+         font-size: 18px;
+         border: 1px solid #110466;
+         border-radius: 5px;
+         text-align: center;
+         color: #ffffff;
+         background-color: #110466;
+         }
+         .btn-default:active .filter-button:active
+         {
+         background-color: #110466;
+         color: white;
+         }
+         .port-image
+         {
+         width: 100%;
+         }
+         .gallery_product
+         {
+         margin-bottom: 30px;
+         }
+         .img-responsive{
+         width:100%;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               <h1 class="gallery-title">Gallery</h1>
+            </div>
+
+            <div class="col-md-12">
+               <div align="center">
+                  <button class="btn btn-default filter-button" data-filter="all">All</button>
+                  <button class="btn btn-default filter-button" data-filter="tedx">TEDx</button>
+                  <button class="btn btn-default filter-button" data-filter="e-summit">E-SUMMIT</button>
+                  <button class="btn btn-default filter-button" data-filter="ls">LEADERSHIP SUMMIT</button>
+                  <button class="btn btn-default filter-button" data-filter="innobuzz">INNOBUZZ</button>
+                  <button class="btn btn-default filter-button" data-filter="orientation">ORIENTATION</button>
+               </div>
+            </div>
+
+            <br/>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter tedx">
+               <img src="images/4.jpg" class="img-responsive" >
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter e-summit">
+               <img src="images/_MG_8851.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter e-summit">
+               <img src="images/DSC_0013.JPG" class="img-responsive" >
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter e-summit">
+               <img src="images/_MG_8863.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter tedx">
+               <img src="images/2.jpg" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter tedx">
+               <img src="images/3.jpg" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter tedx">
+               <img src="images/6.jpg" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter tedx">
+               <img src="images/7.jpg" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter tedx">
+               <img src="images/8.jpg" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0024.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0032.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0034.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0042.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0051.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0052.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0093.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_0118.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ls">
+               <img src="images/DSC_1559.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ls">
+               <img src="images/DSC_1592.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+               <img src="images/DSC_1479.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+               <img src="images/DSC_1559.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+               <img src="images/DSC_1592.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter e-summit">
+               <img src="images/DSC_2236.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter e-summit">
+               <img src="images/DSC_2273.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter e-summit">
+               <img src="images/DSC_2311.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ls">
+               <img src="images/DSC_2327.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ls">
+               <img src="images/DSC_2336.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ls">
+               <img src="images/DSC_2388.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+               <img src="images/DSC_2420.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_2504.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter innobuzz">
+               <img src="images/DSC_2736.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orientation">
+               <img src="images/DSC_3672.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+               <img src="images/DSC02210.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+               <img src="images/IMG_6573.JPG" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ls">
+               <img src="images/DSC_2393-01-01.jpeg" class="img-responsive">
+            </div>
+         </div>
+      </div>
+      </div>
+      <script>
+         $(document).ready(function(){
+
+         $(".filter-button").click(function(){
+           var value = $(this).attr('data-filter');
+
+           if(value == "all")
+           {
+               //$('.filter').removeClass('hidden');
+               $('.filter').show('1000');
+           }
+           else
+           {
+         //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+         //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+               $(".filter").not('.'+value).hide('3000');
+               $('.filter').filter('.'+value).show('3000');
+
+           }
+         });
+
+         if ($(".filter-button").removeClass("active")) {
+         $(this).removeClass("active");
+         }
+         $(this).addClass("active");
+
+         });
+
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+      </script>
+   </body>
+</html>
